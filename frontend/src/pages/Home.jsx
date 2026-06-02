@@ -1,6 +1,6 @@
 import MovieCard from "../components/MovieCard"
 import { useState } from "react";
-
+import "../css/Home.css"
 
 function Home(){ {/*Contains the entire user interface for the home page*/}
     const [searchQuery, setSearchQuery] = useState(""); {/*searchQuery defines the state and setSearchQuery is the function to update the state. Every time the state is updated, the component is going to render itself*/}
